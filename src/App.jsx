@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import BalanceSecction from "./components/balanceSecction";
+import BalanceSecction from "./components/BalanceSecction";
 import AccountSection from "./components/AccountSection";
 import ListGroup from "./components/ListGroup";
 import { ExpenseProvider } from "./context/ExpenseContext";
@@ -11,7 +11,6 @@ function App() {
       <Navbar />
       <div className="conatiner p-5">
         <BalanceSecction />
-        {/* <Chart /> */}
         <AccountSection />
         <ListGroup />
       </div>
